@@ -58,8 +58,9 @@ rm -rf $RPM_BUILD_ROOT
 
 %files devel
 %defattr(644,root,root,755)
-%{_includedir}/pcl.h
+%attr(755,root,root) %{_libdir}/libpcl.so
 %{_libdir}/libpcl.la
+%{_includedir}/pcl.h
 %{_mandir}/man3/pcl.3*
 
 %files static
