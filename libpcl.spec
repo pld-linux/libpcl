@@ -1,7 +1,7 @@
 Summary:	Portable Coroutine Library (PCL)
 Name:		libpcl
 Version:	1.6
-Release:	0.1
+Release:	1
 License:	GPL
 Group:		Libraries
 Source0:	http://www.xmailserver.org/pcl-%{version}.tar.gz
@@ -54,7 +54,7 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog
-%attr(755,root,root) %{_prefix}/lib64/libpcl.so.*.*.*
+%attr(755,root,root) %{_libdir}/libpcl.so.*.*.*
 
 %files devel
 %defattr(644,root,root,755)
