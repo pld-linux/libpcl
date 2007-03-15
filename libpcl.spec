@@ -1,4 +1,5 @@
 Summary:	Portable Coroutine Library (PCL)
+Summary(pl.UTF-8):	Przenośna biblioteka korutyn
 Name:		libpcl
 Version:	1.6
 Release:	1
@@ -17,21 +18,39 @@ tasks without overloading the OS with threads/processes. Since context
 switch between coroutines is very fast, certain applications might
 have performance gain in using this type of threading.
 
+%description -l pl.UTF-8
+PCL (Portable Couroutine Library) to implementacja przenośnej
+biblioteki korutyn napisana w ANSI C.
+
+Korutyny mogą być użyte do zaimplementowania współpracujących wątków
+wśród wielu zadań bez obciążania systemu operacyjnego wątkami czy
+procesami. Ponieważ przełączanie kontekstu między korutynami jest
+bardzo szybkie, pewne aplikacje mogą zyskać na wydajności dzieki
+zastosowaniu tego rodzaju wątkowania.
+
 %package devel
 Summary:	Header files for libpcl library
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki libpcl
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
 %description devel
 This is the package containing the header files for libpcl library.
 
+%description devel -l pl.UTF-8
+Ten pakiet zawiera pliki nagłówkowe biblioteki libpcl.
+
 %package static
 Summary:	Static libpcl library
+Summary(pl.UTF-8):	Statyczna biblioteka libpcl
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
 %description static
 Static libpcl library.
+
+%description static -l pl.UTF-8
+Statyczna biblioteka libpcl.
 
 %prep
 %setup -q
