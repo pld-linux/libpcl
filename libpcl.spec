@@ -2,7 +2,7 @@ Summary:	Portable Coroutine Library (PCL)
 Summary(pl.UTF-8):	Przenośna biblioteka korutyn
 Name:		libpcl
 Version:	1.12
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Libraries
 #Source0Download: http://xmailserver.org/libpcl.html
