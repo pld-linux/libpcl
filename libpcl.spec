@@ -5,7 +5,7 @@ Version:	1.12
 Release:	2
 License:	GPL v2+
 Group:		Libraries
-#Source0Download: http://xmailserver.org/libpcl.html
+#Source0Download: http://www.xmailserver.org/libpcl.html
 Source0:	http://www.xmailserver.org/pcl-%{version}.tar.gz
 # Source0-md5:	816d394743d8ab1b3e20af1efebb093d
 URL:		http://www.xmailserver.org/libpcl.html
